@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.password {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	height: 32px;
+	line-height: 32px;
+	* {
+		box-sizing: border-box;
+		vertical-align: middle;
+	}
+	.head_icon {
+		padding: 0 8px;
+		border-right: 1px solid #ddd;
+	}
+	.password_not_view {
+		display: none;
+	}
+	input {
+		border: none;
+		height: 32px;
+		line-height: 32px;
+	}
+	button {
+		border: none;
+		background: transparent;
+		cursor: pointer;
+		svg {
+			padding-right: 4px;
+		}
+	}
+	svg {
+		width: 20px!important;
+		height: 20px!important;
+		line-height: 20px!important;
+	}
+}
